@@ -1,8 +1,11 @@
 # RFT-projekt-munka
 
 A projekt tervezői: 
+
 Kátai Attila - JGXODS
+
 Oláh Zsolt - DP6BP2
+
 Rinyu László - CYJV1H
 
 A projekt célja, hogy megoldást kínáljon egy olyan mindennapi problémára, amely számos férfit érint: hogyan lehet valóban igényes megjelenést elérni. Az ápoltság és igényesség nem merülhet ki csupán egy jól megválasztott illat vagy elegáns ruházat viselésében. Az összképet nagyban meghatározza a megfelelően karbantartott, stílusos hajviselet, amely magabiztosságot kölcsönöz viselőjének.
