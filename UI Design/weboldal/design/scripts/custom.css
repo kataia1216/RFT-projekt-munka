@@ -1,0 +1,107 @@
+/* custom.css */
+
+/* ubuntu-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('ubuntu-v20-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('ubuntu-v20-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+body, html {
+  /*padding-top: 10px;*/
+  /*background: #666 !important;*/
+}
+
+h1, h2, h3, h4, p, .header, .item {
+  font-family: Ubuntu, Tahoma, Helvetica, Verdana !important;
+  color: #333 !important;
+}
+
+#keret {
+  background-color: #f5f5f5 !important;
+}
+
+#slider {
+  /*height: 400px;*/
+  background-size: cover;
+  padding: 0 !important;
+  height: 40vw;
+  max-height: 400px;
+  /*width: 100vw;*/
+}
+
+#slider .slides {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+}
+
+#slider .slide1 {
+  background: #fff url('../images/slider01.jpg') no-repeat center center;
+}
+
+#slider .slide2 {
+  background: #fff url('../images/slider02.jpg') no-repeat center center;
+}
+
+#slider .slide3 {
+  background: #fff url('../images/slider03.jpg') no-repeat center center;
+}
+
+#slider .slide4 {
+  background: #fff url('../images/slider04.jpg') no-repeat center center;
+}
+
+#slider h1 {
+  font-size: 3em;
+  width: 80%;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+#slider h1:hover {
+  opacity: 1;
+}
+
+#slider p {
+  width: 80%;
+  display: block;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  opacity: .8;
+}
+
+#slider p:hover {
+  opacity: 1;
+}
+
+#tartalom .header {
+  /*background-color: #ccc;*/
+}
+
+.ui.top.attached.center.aligned.header {
+  padding: 20px;
+  background: #f9fafb !important;
+}
+
+#tartalom p {
+  /*text-align: justify;*/
+}
+
+#lablec p {
+  /*text-align: justify;*/
+}
+
+.copy p {
+  color: #ddd !important;
+  font-style: italic;
+}
